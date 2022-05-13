@@ -370,5 +370,32 @@
       "restaurantId": "tasty-treats"
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "address": "Rua A",
+      "number": "12",
+      "optionalAddress": "",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 2,
+          "menuId": "sunday"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "address": "Rua A",
+      "number": "7",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "straw"
+        }
+      ],
+      "id": 2
+    }
+  ]
 }
